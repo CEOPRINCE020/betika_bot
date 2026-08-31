@@ -4,7 +4,7 @@ from flask import Flask
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-TOKEN=os.getenv("TOKEN","8849122687:AAEK6k4q8QMW__AJ3sXSgzc-4nZRej4D-PQ")
+TOKEN=os.getenv("TOKEN","8849...
 CHAT_ID=None
 
 flask_app = Flask(__name__)
